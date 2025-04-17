@@ -5,8 +5,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
+  title: "Quiénes Somos | TalenTech - Soluciones Tecnológicas para PYMES",
+  description: "Somos una empresa especializada en soluciones tecnológicas para PYMES, ayudando a reducir costos y optimizar procesos",
   // other metadata
 };
 
@@ -14,8 +14,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Quiénes Somos"
+        description="En TalenTech nos especializamos en brindar soluciones tecnológicas a medida para PYMES, ayudándolas a reducir costos operativos y mejorar su eficiencia a través de la tecnología."
       />
       <AboutSectionOne />
       <AboutSectionTwo />

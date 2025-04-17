@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Servicios Especializados en Tecnología"
-                paragraph="En TalentTech nos especializamos en proporcionar soluciones tecnológicas integrales para pequeñas y medianas empresas. Nuestro enfoque se centra en ofrecer servicios de alta calidad a precios competitivos, asegurando el máximo valor para nuestros clientes. Ofrecemos outsourcing de personal IT, desarrollo de software a la medida, migración a la nube, modernización de sistemas legacy y consultoría especializada."
+                title="Soluciones Tecnológicas para PYMES"
+                paragraph="En TalenTech nos especializamos en ayudar a las PYMES a reducir costos operativos y mejorar su eficiencia a través de soluciones tecnológicas personalizadas. Nuestro enfoque se centra en proporcionar servicios de alta calidad a precios competitivos, permitiendo a las pequeñas y medianas empresas acceder a tecnología de vanguardia sin grandes inversiones iniciales."
                 mb="44px"
               />
 
@@ -36,14 +36,14 @@ const AboutSectionOne = () => {
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Outsourcing de Personal IT" />
-                    <List text="Desarrollo de Software" />
+                    <List text="Desarrollo de Software a Medida" />
                     <List text="Migración a la Nube" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Modernización de Sistemas" />
                     <List text="Consultoría Tecnológica" />
-                    <List text="Soporte 24/7" />
+                    <List text="Soporte Técnico 24/7" />
                   </div>
                 </div>
               </div>
