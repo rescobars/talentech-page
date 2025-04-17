@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Servicios Especializados en Tecnología"
+                paragraph="En TalentTech nos especializamos en proporcionar soluciones tecnológicas integrales para pequeñas y medianas empresas. Nuestro enfoque se centra en ofrecer servicios de alta calidad a precios competitivos, asegurando el máximo valor para nuestros clientes. Ofrecemos outsourcing de personal IT, desarrollo de software a la medida, migración a la nube, modernización de sistemas legacy y consultoría especializada."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Outsourcing de Personal IT" />
+                    <List text="Desarrollo de Software" />
+                    <List text="Migración a la Nube" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Modernización de Sistemas" />
+                    <List text="Consultoría Tecnológica" />
+                    <List text="Soporte 24/7" />
                   </div>
                 </div>
               </div>

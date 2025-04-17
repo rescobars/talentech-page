@@ -7,8 +7,8 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Details Page for Startup Nextjs Template",
+  title: "Blog Details Page | Free Next.js Template for TalentTech and SaaS",
+  description: "This is Blog Details Page for TalentTech Nextjs Template",
   // other metadata
 };
 
@@ -327,6 +327,7 @@ const BlogSidebarPage = () => {
                         <TagButton text="Design" />
                         <TagButton text="Development" />
                         <TagButton text="Info" />
+                        <TagButton text="TalentTech" />
                       </div>
                     </div>
                     <div className="mb-5">

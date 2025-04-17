@@ -1,6 +1,6 @@
-import { Feature } from "@/types/feature";
+import { Service } from "@/types/service";
 
-const featuresData: Feature[] = [
+const servicesData: Service[] = [
   {
     id: 1,
     icon: (
@@ -10,8 +10,8 @@ const featuresData: Feature[] = [
         <path d="M20 12c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8z"/>
       </svg>
     ),
-    title: "Outsourcing de Personal IT",
-    paragraph: "Proporcionamos personal calificado en TI y desarrollo a precios competitivos, permitiendo a las empresas acceder a talento especializado sin los costos fijos de contratación.",
+    title: "Capacitación IT Económica",
+    description: "Programas de capacitación en desarrollo de software y TI a precios accesibles, sin comprometer la calidad del contenido.",
   },
   {
     id: 2,
@@ -22,8 +22,8 @@ const featuresData: Feature[] = [
         <path d="M20 12c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8z"/>
       </svg>
     ),
-    title: "Desarrollo a la Medida",
-    paragraph: "Creamos soluciones de software personalizadas que se adaptan perfectamente a las necesidades específicas de tu negocio, garantizando eficiencia y escalabilidad.",
+    title: "Consultoría ITIL Básica",
+    description: "Servicios de consultoría ITIL simplificados y económicos para pequeñas y medianas empresas que buscan mejorar sus procesos.",
   },
   {
     id: 3,
@@ -34,8 +34,8 @@ const featuresData: Feature[] = [
         <path d="M20 12c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8z"/>
       </svg>
     ),
-    title: "Migración a la Nube",
-    paragraph: "Asesoramos y ejecutamos la migración de tus sistemas on-premise a la nube, optimizando costos y mejorando la flexibilidad de tu infraestructura tecnológica.",
+    title: "Desarrollo Web Económico",
+    description: "Soluciones web personalizadas a precios competitivos, perfectas para startups y pequeñas empresas que buscan presencia digital.",
   },
   {
     id: 4,
@@ -46,8 +46,8 @@ const featuresData: Feature[] = [
         <path d="M20 12c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8z"/>
       </svg>
     ),
-    title: "Modernización de Sistemas",
-    paragraph: "Ayudamos a empresas a actualizar sus sistemas legacy a tecnologías modernas, mejorando la eficiencia y reduciendo costos de mantenimiento.",
+    title: "E-learning Accesible",
+    description: "Plataformas de aprendizaje en línea económicas y fáciles de usar, ideales para empresas que buscan capacitar a su personal.",
   },
   {
     id: 5,
@@ -58,8 +58,8 @@ const featuresData: Feature[] = [
         <path d="M20 12c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8z"/>
       </svg>
     ),
-    title: "Consultoría Tecnológica",
-    paragraph: "Ofrecemos asesoría especializada en transformación digital, ayudando a las empresas a adoptar las mejores prácticas y tecnologías actuales.",
+    title: "Outsourcing IT Económico",
+    description: "Servicios de outsourcing de TI a precios accesibles, permitiendo a las empresas acceder a talento especializado sin grandes inversiones.",
   },
   {
     id: 6,
@@ -70,8 +70,9 @@ const featuresData: Feature[] = [
         <path d="M20 12c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8z"/>
       </svg>
     ),
-    title: "Soporte 24/7",
-    paragraph: "Brindamos soporte técnico continuo y mantenimiento preventivo para asegurar el óptimo funcionamiento de tus sistemas en todo momento.",
+    title: "Reclutamiento IT Económico",
+    description: "Servicios de reclutamiento de personal IT a precios competitivos, ayudando a las empresas a encontrar el talento que necesitan.",
   },
 ];
-export default featuresData;
+
+export default servicesData; 
